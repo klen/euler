@@ -17,7 +17,7 @@ def problem():
 
     What is the total of all the name scores in the file?
 
-    Answer:
+    Answer: 871198282
 
     """
     path = op.join(op.dirname(__file__), 'names.txt')
