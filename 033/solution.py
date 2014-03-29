@@ -21,7 +21,7 @@ def problem():
     If the product of these four fractions is given in its lowest common terms,
     find the value of the denominator.
 
-    Answer:
+    Answer: 100
 
     """
     return reduce(op.mul, (
