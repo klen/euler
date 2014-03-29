@@ -1,6 +1,6 @@
 # coding: utf-8
 
-""" Project Euler problem #X. """
+""" Project Euler problem #35. """
 
 import math as mt
 import re
