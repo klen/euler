@@ -39,15 +39,7 @@ def problem():
 
 def is_pandigital(*args):
     """ Check numbers is pandigital through 9. """
-    num = sorted(''.join(str(arg) for arg in args))
-
-    if len(num) != 9:
-        return False
-
-    for x in range(9):
-        if str(x+1) != str(num[x]):
-            return False
-    return True
+    return ''.join(sorted(x for arg in args for x in str())) == '123456789'
 
 
 if __name__ == '__main__':
