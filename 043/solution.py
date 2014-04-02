@@ -30,7 +30,7 @@ def problem():
     """
     primes = list(enumerate((2, 3, 5, 7, 11, 13, 17), 1))
     _sum = 0
-    for pandigital in it.permutations('0123456789', 10):
+    for pandigital in it.permutations('0123456789'):
         if any(int(''.join(pandigital[num:num + 3])) % prime
                for num, prime in primes):
             continue
